@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Project/example/project/project/}example-build-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/mirla/Projects/estudos/estudos-escala/example/project/project/}example-build-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#example-build-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -16,7 +16,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7949a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36cbcd09[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
@@ -2286,19 +2286,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 933ms :: artifacts dl 35ms[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT compile produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT runtime produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT test produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT provided produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT optional produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT compile-internal produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT runtime-internal produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT test-internal produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT plugin produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT sources produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT docs produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT pom produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT scala-tool produced in C:\Project\example\project\project\target\resolution-cache\reports\default-example-build-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (933ms resolve - 35ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2993ms :: artifacts dl 116ms[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT compile produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT runtime produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT test produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT provided produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT optional produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT compile-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT runtime-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT test-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT plugin produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT sources produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT docs produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT pom produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build-build;0.1-SNAPSHOT scala-tool produced in /home/mirla/Projects/estudos/estudos-escala/example/project/project/target/resolution-cache/reports/default-example-build-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2993ms resolve - 116ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

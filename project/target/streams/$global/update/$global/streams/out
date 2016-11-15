@@ -1,10 +1,28 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Project/example/project/}example-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/mirla/Projects/estudos/estudos-escala/example/project/}example-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#example-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-start-script;0.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-start-script;0.10.0 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-start-script;0.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbt#sbt-start-script;0.10.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-start-script;0.10.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-start-script;0.10.0[0m
+[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml (0.10.0)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-start-script;0.10.0!ivy.xml(ivy.original) (3191ms)[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-start-script;0.10.0 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}[0m
@@ -76,15 +94,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-start-script;0.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-start-script;0.10.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-start-script;0.10.0[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-start-script;0.10.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -121,12 +135,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -163,8 +177,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)][0m
@@ -1035,6 +1047,8 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1071,8 +1085,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)][0m
@@ -1717,6 +1729,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1753,14 +1767,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [test-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1797,8 +1811,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-start-script;0.10.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#example-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)][0m
@@ -2490,11 +2502,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#example-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/jars/sbt-start-script.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/jars/sbt-start-script.jar ...[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/jars/sbt-start-script.jar[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/jars/sbt-start-script.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-start-script/scala_2.10/sbt_0.13/0.10.0/jars/sbt-start-script.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-start-script;0.10.0!sbt-start-script.jar (5267ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbt#sbt-start-script;0.10.0!sbt-start-script.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
@@ -2553,19 +2570,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 602ms :: artifacts dl 32ms[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT compile produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT runtime produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT test produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT provided produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT optional produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT compile-internal produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT runtime-internal produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT test-internal produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT plugin produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT sources produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT docs produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT pom produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT scala-tool produced in C:\Project\example\project\target\resolution-cache\reports\default-example-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (602ms resolve - 32ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9967ms :: artifacts dl 5325ms[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT compile produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT runtime produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT test produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT provided produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT optional produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT compile-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT runtime-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT test-internal produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT plugin produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT sources produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT docs produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT pom produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#example-build;0.1-SNAPSHOT scala-tool produced in /home/mirla/Projects/estudos/estudos-escala/example/project/target/resolution-cache/reports/default-example-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (9967ms resolve - 5325ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
